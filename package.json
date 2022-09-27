@@ -1,0 +1,14 @@
+{
+  "name": "cypress-airbnb",
+  "version": "1.0.0",
+  "description": "Airbnb automation with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Robert Marinescu",
+  "license": "ISC"
+}

@@ -4,11 +4,21 @@
   "description": "Airbnb automation with cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run"
   },
   "keywords": [
     "cypress"
   ],
   "author": "Robert Marinescu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.15.8"
+  },
+  "dependencies": {
+    "cypress": "^10.9.0"
+  }
 }
